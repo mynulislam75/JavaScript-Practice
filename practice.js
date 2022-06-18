@@ -28,7 +28,16 @@ sonAge++;
 console.log(sonAge)
 
 // unary like C programming minus
-
 var fatherAge=40;
 fatherAge--;
 console.log(fatherAge)
+
+// conversion to float and int
+var number1="20"
+var number2="30"
+var totalPrice=number1+number2;
+console.log(totalPrice)
+var number1Conversion=parseInt(number1)
+var number2Conversion=parseInt(number2)
+var totalConvert=number1Conversion+number2Conversion;
+console.log(totalConvert)
