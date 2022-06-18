@@ -56,3 +56,11 @@ console.log(controlAvarage);
 // date
 var today=new Date();
 console.log(today)
+
+// typeOf is used to know the type of variable
+var boolean=true;
+console.log(typeof boolean)
+var number=2112;
+console.log(typeof number)
+var string="Mynul"
+console.log(typeof string)
