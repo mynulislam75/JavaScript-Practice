@@ -12,7 +12,7 @@ console.log(totalNumber)
 var differenceBetween=firstNumber-secondNumber;
 console.log(differenceBetween)
 
-// math operation shorterhand
+// math operation shorthand
 var numberOne=10;
-numberOne=10++;
+numberOne+=40;
 console.log(numberOne)
