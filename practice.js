@@ -12,7 +12,23 @@ console.log(totalNumber)
 var differenceBetween=firstNumber-secondNumber;
 console.log(differenceBetween)
 
-// math operation shorthand
+// math operation shorthand add
 var numberOne=10;
 numberOne+=40;
 console.log(numberOne)
+
+// math operation shorthand substruct
+var numberOne=10;
+numberOne-=40;
+console.log(numberOne)
+
+// unary like C programming
+var sonAge=10;
+sonAge++;
+console.log(sonAge)
+
+// unary like C programming minus
+
+var fatherAge=40;
+fatherAge--;
+console.log(fatherAge)
