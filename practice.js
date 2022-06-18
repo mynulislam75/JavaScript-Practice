@@ -37,7 +37,22 @@ var number1="20"
 var number2="30"
 var totalPrice=number1+number2;
 console.log(totalPrice)
+
 var number1Conversion=parseInt(number1)
 var number2Conversion=parseInt(number2)
 var totalConvert=number1Conversion+number2Conversion;
-console.log(totalConvert)
+console.log(totalConvert);
+
+
+// use toFix
+var priceOne=100
+var eachPrice=33
+var avaragePrice=priceOne/eachPrice;
+console.log(avaragePrice)
+// andwer will be too big,so control required
+var controlAvarage=avaragePrice.toFixed(2)
+console.log(controlAvarage);
+
+// date
+var today=new Date();
+console.log(today)
