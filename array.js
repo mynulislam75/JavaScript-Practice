@@ -9,3 +9,8 @@ var arrayIsLength=arrayIs.length
 var nameAreLength=nameAre.length
 console.log(arrayIsLength)
 console.log(nameAreLength)
+
+// getting index
+var nameAre=["Mynul","Marufa","Sabrina","Masum",5454]
+console.log(nameAre.indexOf(5454))
+console.log(nameAre[0])
