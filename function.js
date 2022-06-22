@@ -34,6 +34,5 @@ function threeNumber(num1,num2,num3){
     }
    
 }
-
 var finalResult=threeNumber(709,20,300)
 console.log("It's the final redult & the biggest number is",finalResult)
